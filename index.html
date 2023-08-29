@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="container">
+        <div class="timer">
+            <span class="hh">00</span> :
+            <span class="mm">00</span> :
+            <span class="ss">00</span>
+        </div>
+        <div class="buttons">
+            <button id="start" onclick="startFunc()">Start</button>
+            <button id="pause"onclick="pauseFunc()">Pause</button>
+            <button id="lap" onclick="lapFunc()">Lap</button>
+        </div>
+        <div id="rec"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
